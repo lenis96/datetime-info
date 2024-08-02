@@ -1,0 +1,47 @@
+{
+  "api": {
+    "name": "DateTimeInfoPlugin",
+    "slug": "datetimeinfoplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "echo",
+        "signature": "(options: { value: string; }) => Promise<{ value: string; }>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ value: string; }"
+          }
+        ],
+        "returns": "Promise<{ value: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "echo"
+      },
+      {
+        "name": "testPluginMethod",
+        "signature": "(options: { msg: string; }) => Promise<{ value: string; current_time?: any; elapsed_realtime?: any; auto_time?: boolean; auto_time_cheked?: boolean; }>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ msg: string; }"
+          }
+        ],
+        "returns": "Promise<{ value: string; current_time?: any; elapsed_realtime?: any; auto_time?: boolean | undefined; auto_time_cheked?: boolean | undefined; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "testpluginmethod"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
