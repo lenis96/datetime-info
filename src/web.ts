@@ -7,4 +7,9 @@ export class DateTimeInfoWeb extends WebPlugin implements DateTimeInfoPlugin {
     console.log('ECHO', options);
     return options;
   }
+
+  async testPluginMethod(options: { msg: string; }): Promise<{ value: string,current_time?:any,elapsed_realtime?:any,auto_time?:boolean,auto_time_cheked?:boolean }> {
+    // alert(options.msg+'llo');
+    return {value:options.msg,current_time:'',elapsed_realtime:'',auto_time:true,auto_time_cheked:false}
+  }
 }
